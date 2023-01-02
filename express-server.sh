@@ -14,6 +14,7 @@ cd ${folder_name}
 $package_manager init -y
 $install_cmd express mongoose dotenv cors
 $install_cmd -D nodemon
+mkdir routes controllers models utils
 touch index.js
 git init .
 touch .gitignore 
